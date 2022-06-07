@@ -1,22 +1,32 @@
-# Ignore all
-*
+# Prerequisites
+*.d
 
-# Unignore all with extensions
-!*.*
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Unignore all dirs
-!*/
+# Precompiled Headers
+*.gch
+*.pch
 
-### Above combination will ignore all files without extension ###
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Ignore files with extension `.class` & `.exe`
-*.class
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
 *.exe
-
-# Ignore `bin` dir
-bin/
-# or
-*/bin/*
-
-# Unignore all `.exe` in `bin` dir
-!*/bin/*.exe
+*.out
+*.app
